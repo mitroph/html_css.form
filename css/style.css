@@ -1,0 +1,144 @@
+.wrapper {
+  align-items: baseline;
+  margin: 0 auto;
+  width: max-content;
+}
+.communicate {
+  display: flex;
+}
+.form-reg {
+  padding: 5px 10px;
+  background: linear-gradient(#355a6d, #063758);
+  border-radius: 6px;
+}
+.sky {
+  color: white;
+  margin-right: 3px;
+}
+.input-text {
+  margin-right: 5px;
+}
+.input-password {
+  margin-right: 10px;
+}
+.a-reg {
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+  font-weight: 600;
+  font-size: 0.96em;
+}
+.a-entry {
+  color: white;
+  text-decoration: none;
+  padding-right: 12px;
+  border-right: 1px solid white;
+  padding-bottom: 2px;
+  font-weight: 600;
+  font-size: 0.96em;
+}
+.cant-entry {
+  color: #d5e2e7;
+  margin-left: 24px;
+  font-size: 0.96em;
+}
+.face {
+  height: 12px;
+}
+.call {
+  color: #706f6d;
+  background-image: url(../img/phone_icon.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  border: 2px solid #8b8a88;
+  border-radius: 15px;
+  padding: 0px 15px 0px 15px;
+  margin-left: 20px;
+}
+.nav_icon:nth-child(2) {
+  margin: 0px 8px 0px 8px;
+}
+
+.log-photo {
+  background-image: url(../img/header_img.png);
+  height: 276px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0px 5px 0px;
+}
+.top-nav {
+  background: linear-gradient(#52565f, #4c5262, #0d1015, #010204);
+  padding: 8px 0px;
+  border-radius: 10px;
+  display: flex;
+  align-items: baseline;
+}
+.top-nav__items {
+  margin-right: 35px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.top-nav__items:first-child {
+  margin-left: 60px;
+}
+.top-nav__items:nth-child(5) {
+  margin-right: 70px;
+}
+.value {
+  color: #a6a4a5;
+  margin-right: 15px;
+}
+.count-value {
+  color: #0f719b;
+  margin-right: 15px;
+}
+
+.source {
+  flex: 1 450px;
+}
+.source__item {
+  display: flex;
+}
+.selection__block {
+  display: flex;
+}
+.caption > span {
+  display: block;
+}
+.caption {
+  display: flex;
+  justify-content: space-between;
+}
+.selection-block__item {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: start;
+}
+.small-text {
+  font-size: 12px;
+  color: #929292;
+}
+.selection-selector {
+  background-color: #fff;
+  width: 120px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+.selection-selector:nth-child(3) {
+  width: 80px;
+}
+.font-size {
+  font-size: 0.95em;
+  font-weight: 700;
+}
